@@ -20,11 +20,17 @@ document.write( "<h1>Prueba de Titulo</h1>");
 
 document.write("Año: " +  anioActual + "<br>");
 
-alert("alerta");
+//alert("alerta");
 
-let color= prompt("Ingrese color: ");
+//let color= prompt("Ingrese color: ");
 
 console.log(color);
+
+let numIngresado= parseInt(prompt("Ingrese numero del 1 al 100: "));
+
+console.log(numIngresado);
+
+console.log(numIngresado + 15);
 
 
 
